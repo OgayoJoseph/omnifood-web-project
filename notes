@@ -26,3 +26,63 @@ Based on the tech-centered target audience, as well as the actual product being 
 We might add some elements of the [calm/peaceful] personality, sonce the product is all about consumer well-being as well.
 
 -Planing the page sections (check content.md)
+
+RESPONSIVE DESIGN PRINCIPLES
+
+What is responsive desing:
+
+-Desing technique to make a webpage adjust its layout and visual style to [any-possible-screen-size] (window or viewport size)
+
+-In practise, this mean that responsive design makes websites usable on all devices, such as [desktop-computers,tablets,-and-mobile-phones.]
+
+-Its a set of practices, [not-a-separate-technology], just CSS.
+
+Responsive Design Ingedients:
+
+1.Fluid Layouts:
+
+-To allow webpages to adapt to the [current-viewport] width (pr even height)
+
+-Use % (or vh / vw) units intead of px for elements that [should-adapt-to-viewport(usually-layout)]
+
+-Use max-width instead of width.
+
+2.Responsive Units:
+
+-Use rem units instead of px for most lengths.
+
+-To make it easy to [scale-the-entire-layout-down-or-up] automatically.
+
+-[Helpful-trick]:setting 1rem to 10px for easy calculations
+
+3.Flexible Images:
+
+-By default, images [don't-scale-automatically] as we change the viewport, so we need to fix that.
+
+-Always use % for images dimensions, together with the max-width property.
+
+4.Media Queries:
+
+-Bring Responsive sites to life!
+
+-To change CSS style on [certain-viewport-widths] (called breakpoints)
+
+NB=Will be learnt on the next section [section-8]
+
+DESKTOP-FIRST VS. MOBILE-FIRST DEVELOPMENT.
+
+Desktop first:
+
+-Start writing CSS for the desktop :[large-screen]
+
+-Then, medis queries [shrink-design] to smaller screens.
+
+NB=Project will focus on Desktop-first approach.
+
+Mobile-First:
+
+-Start writing CSS for mobile devices: [small-screen]
+
+-Then, media queries [expand-design] to large screen.
+
+-Forces us to reduce website and apps to the [absolute-essentials].
