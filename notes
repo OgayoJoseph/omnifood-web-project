@@ -94,3 +94,5 @@ By changing the font-size the entire layout changes as well.
 therefore use 62.5% derived from the following calculation [10px/16px=0.625=62.5%]
 
 This is the % of User's browser font-size setting
+
+In-order to add a border inside an elements we use [insert] in a box-shadow property this will ensure that the entire element doestn't move with the change of the element.
