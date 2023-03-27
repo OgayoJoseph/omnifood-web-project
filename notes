@@ -86,3 +86,11 @@ Mobile-First:
 -Then, media queries [expand-design] to large screen.
 
 -Forces us to reduce website and apps to the [absolute-essentials].
+
+rem [root-element-font-size]
+
+By changing the font-size the entire layout changes as well.
+
+therefore use 62.5% derived from the following calculation [10px/16px=0.625=62.5%]
+
+This is the % of User's browser font-size setting
