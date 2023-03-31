@@ -20,8 +20,8 @@
 /* **************************** */
 /* NAVIGATION */
 /* **************************** */
-.main-nav {
-}
+
+/* .main-nav {} */
 
 .main-nav-list {
   list-style: none;
@@ -77,8 +77,7 @@
   align-items: center;
 }
 
-.hero-text-box {
-}
+/* .hero-text-box {} */
 
 .hero-description {
   font-size: 2rem;
@@ -160,8 +159,7 @@
   padding: 9.6rem 0;
 }
 
-.Step-text-box {
-}
+/* .step-text-box {} */
 
 .step-number {
   font-size: 8.6rem;
