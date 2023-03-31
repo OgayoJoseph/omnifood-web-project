@@ -77,6 +77,9 @@
   align-items: center;
 }
 
+.hero-text-box {
+}
+
 .hero-description {
   font-size: 2rem;
   line-height: 1.6;
@@ -155,6 +158,9 @@
 
 .section-how {
   padding: 9.6rem 0;
+}
+
+.Step-text-box {
 }
 
 .step-number {

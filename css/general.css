@@ -47,7 +47,9 @@ medium: 11px
 
 */
 
+/* **************************** */
 /* GLOBAL RESET */
+/* **************************** */
 
 * {
   margin: 0;
@@ -55,7 +57,9 @@ medium: 11px
   box-sizing: border-box;
 }
 
+/* **************************** */
 /* RESPONSIVE DESIGN SETTING*/
+/* **************************** */
 
 html {
   /* font-size: 10px; */
@@ -66,7 +70,9 @@ html {
   font-size: 62.5%;
 }
 
+/* **************************** */
 /* GENERAL STYLE SETTINGS */
+/* **************************** */
 
 body {
   font-family: "Rubik", sans-serif;
