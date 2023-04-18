@@ -1,0 +1,40 @@
+/*
+NOTE:
+rem and em do NOT depend on html font-size in media queries!
+Instead, 1rem = 1em = 16px
+Due to potential bug on some browsers, we use em intead of rem as a precautious practice
+*/
+
+/* **************************** */
+/* Responsiveness to Small Laptops.*/
+/* **************************** */
+
+/* **************************** */
+/* BELOW 1344PX */
+/* **************************** */
+
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* **************************** */
+/* Responsiveness to Landscape Tablets.*/
+/* **************************** */
+
+/* 
+-FONT SIZE SYSTEM (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
